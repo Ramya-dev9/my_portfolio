@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div bay-hydrate="" id="bay-hydrate-0">
+        <div class="card-container">
+            <!-- apply flip-back & flip-front based on a click event -->
+            <!-- <div class="card flip-front" id="myCard" onclick="this.classList.replace('flip-front','flip-back');"> -->
+            <div class="card flip-front" id="myCard">
+                <div id="frontTemp" class="face front">
+                    <div class="whole-container">
+                        <header>
+                            <div class="logo" data-a05ce59f="">
+                                <img src="images/letter-b-logo.jpg" alt="B Logo">
+                            </div>
+                            <div>
+                                <ul>
+                                    <li class="email">
+                                        <a>
+                                            <img src="images/email-logo.jpg" alt="email logo">
+                                        </a>
+                                    </li>
+                                    <li class="github"> <a>
+                                            <img src="images/github-logo.jpg" alt="github logo">
+                                        </a></li>
+                                    <li class="linkedin"> <a>
+                                            <img src="images/linkedin-logo2.jpeg" alt="linkedIn logo">
+                                        </a> </li>
+                                </ul>
+                            </div>
+                        </header>
+                        <div class="main-wrap">
+                            <div class="main-grid">
+                                <div>
+                                    <d-welcome prop-color="#cccccc">
+                                        <span class="welcome-title">Welcome</span>
+                                    </d-welcome>
+                                    <div>
+                                        <p>My name is Ramya Bandaru, I'm a front-end developer based in Hyderabad,
+                                            India.
+                                            I have
+                                            developed
+                                            many
+                                            types
+                                            of front-ends from well know Progressive Web applications(PWA) to Ecommerce
+                                            booking platforms.</p>
+                                        <p>I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and
+                                            intuitively
+                                            implemented UX.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <div class="main-projects">
+                                        <h2>Projects</h2>
+                                        <div class="project-wrapper">
+                                            <a onClick="setFlipSide('Back'); setProject('project_1')"><u>project
+                                                    1</u></a>
+                                            <a onClick="setFlipSide('Back'); setProject('project_2')"><u>project
+                                                    2</u></a>
+                                            <a onClick="setFlipSide('Back'); setProject('project_3')"><u>project
+                                                    3</u></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <footer>© 2024 bandaru1998.com</footer>
+                    </div>
+                </div>
+                <div id="backTemp" class="face back">
+                    <div class="whole-container">
+                        <header>
+                            <div class="logo" onClick="setFlipSide('Welcome')" data-a05ce59f="">
+                                <img src="images/letter-b-logo.jpg" alt="Logo">
+                            </div>
+                            <div>
+                                <ul>
+                                    <li class="email">
+                                        <a>
+                                            <img src="images/email-logo.jpg" alt="email logo">
+                                        </a>
+                                    </li>
+                                    <li class="github"> <a>
+                                            <img src="images/github-logo.jpg" alt="github logo">
+                                        </a></li>
+                                    <li class="linkedin"> <a>
+                                            <img src="images/linkedin-logo2.jpeg" alt="linkedIn logo">
+                                        </a> </li>
+                                </ul>
+                            </div>
+                        </header>
+                        <div class="main-wrap">
+                            <div class="main-grid">
+                                <div>
+                                    <div id="project_1">
+
+                                        <h2>Project 1</h2>
+                                        <p> .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................</p> <a target="_blank"
+                                            href="">
+                                            View Site </a>
+
+                                    </div>
+                                    <div id="project_2">
+
+                                        <h2>Project 2</h2>
+                                        <p> .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................</p> <a target="_blank"
+                                            href="">
+                                            View Site </a>
+
+                                    </div>
+                                    <div id="project_3">
+
+                                        <h2>Project 3</h2>
+                                        <p> .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................
+                                            .......................................................................................................</p> <a target="_blank"
+                                            href="">
+                                            View Site </a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="main-projects">
+                                        <h2>Projects</h2>
+                                        <div class="project-wrapper">
+                                            <a id="project_1_link" onClick="setProject('project_1')"><u>project 1</u></a>
+                                            <a id="project_2_link" onClick="setProject('project_2')"><u>project 2</u></a>
+                                            <a id="project_3_link" onClick="setProject('project_3')"><u>project 3</u></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <footer>© 2024 bandaru1998.com</footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
