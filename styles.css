@@ -38,20 +38,13 @@
       max-width: 470px;
       align-self: self-end;
       justify-self: self-start;
-      margin-bottom: 1rem;
     }
 
-        @media screen and (min-width: 1024px) {
-            .welcome-title {
-                font-size: 100px;
-            }
-        }
-
-        @media screen and (max-width: 1000px) {
+        
             .welcome-title {
                 font-size: 65px;
             }
-        }
+        
 
     .whole-container {
       display: grid;
